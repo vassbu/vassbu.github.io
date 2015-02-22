@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>FagOgFakta</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<style id="jsbin-css">
+    /* <style type='text/css'> */
+/* Defaults / Desktop View */
+    body{ font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#333; /* width:100%;*/ overflow:auto; }   /*  overflow:hidden;  */
+    a{color:inherit; text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    h1{color:#777; font-weight:normal; font-size:18px; margin: -7px 0px -3px 5px; padding:0;}
+    input, textarea {border-width: 1px;}
+	div.contentBox { margin-bottom:20px; }  /* ???? */
+    .subject { float:left; width:240px; margin:0 10px 0 0; padding:7px; }
+    .subject p { margin:0; }
+    .subject p.title { /* padding:12px 0; */ font-size:19px; color:#fff;background:#ccc;border:1px solid; border-color:#ccc; border-radius:5px;padding:0px 0px 0px 3px; }
+    #subjectWrapClear { clear:left; }    /* ??? */
+    #wrap { width:980px; margin:0 auto; }
+    #wrapClear { clear:left; }
+    #content { margin-left:20px; float:left; width: 800px; }
+    @media only screen and (min-width:651px ) and (max-width:979px) {
+        /*Small Desktop / Large Tablet View*/
+        #wrap { width:650px; }
+        #content { margin-left:0; float:none; width: auto; }
+        #wrapClear { clear:none; }
+        .subject { width: 190px; }
+    }
+    @media only screen and (min-width:481px ) and (max-width:650px) {
+        /* Small Tablet View */
+        #wrap { width:480px; }
+        #content { margin-left:0; float:none; width: auto; }
+        #wrapClear { clear:none; }
+        .subject { width:212px; }
+    }
+    @media only screen and (max-width:480px) {
+        /* Smartphone view*/
+        #wrap { width:300px; }
+        #content { margin-left:0; float:none; width: auto; }
+        #wrapClear { clear:none; }
+        .subject { width:284px; }
+    }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="content">
+	   <!-- <div class="contentBox">  <!-- ???? -->
+        <h1><a href="http://ansatte.hin.no/tg">FagOgFakta</a></h1>
+        <div class="subject">
+          <p class="title">
+            <a href="#">Matematikk 1</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropboxusercontent.com/u/2113110/4_Vektorer.pdf">SL4 Vektorer</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/4_Komplekse_tall.pdf">SL4 Komplekse tall</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/5_Funksjoner.pdf">SL5 Funksjoner</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/J07_Grenser_Kontinuitet.pdf">J07 Grenser og kontinuitet</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/J08_Derivasjon.pdf">J08 Derivasjon</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/J08_Integrasjon.pdf">J08 Integrasjon</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/J10_Differensiallikninger.pdf">J10 Differensiallikninger</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/J05_Matrisealgebra.pdf">J05 Matrisealgebra</a><br>			
+			<a href="https://dl.dropbox.com/u/2113110/Svar_Ma1_Bok1.pdf">Svar_Ma1_Bok1</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Svar_Ma1_Bok2.pdf">Svar_Ma1_Bok2</a><br>
+            ---<br>
+            <a href="ansatte_hin_no_tg_Popup.html" onclick="Sprettopp=window.open('ansatte_hin_no_tg_Popup.html','Sprettopp','toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=200,height=480'); return false;">FORELESNINGER</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Ma1_Konsentrat.pdf">Ma1_Konsentrat</a><br>
+            <!-- <a href="https://dl.dropbox.com/u/2113110/10_Matriser.pdf">L10 Matriser</a><br> -->
+            <!-- <a href="https://dl.dropbox.com/u/2113110/11_LinAlgebra.pdf">L11 Lineær algebra</a><br> -->
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Eksamen_Ma1_2010-12_m_Svar-1.pdf">Eksamen 2010-12</a><br>			
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Innleveringer_Ma1_h11_h12.pdf">Innleveringer 2011-12</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Ma1_Innleveringer_2013_Svar.pdf">2013</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/ModernEngMath_Svar.pdf">Svar til Modern Eng. Math.</a><br>
+			<a href="https://dl.dropbox.com/u/2113110/Formler_Statistikk.pdf">Statistikk formler</a>
+          </p>
+        </div>
+        <div class="subject">
+          <p class="title">
+            <a href="#">Matematikk 2</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropboxusercontent.com/u/2113110/A5_Ma2_Taylorpolynomer.pdf">Ma2_Taylorpolynomer</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/A5_Ma2_Induksjon_Rekursjon.pdf">Ma2_Induksjon_Rekursjon</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/A5_Ma2_Rekker.pdf">Ma2_Rekker</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Svar_Ma2_V14.pdf">Svar til oppgaver i Ma2</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Konvergenstester.pdf">Konvergenstester</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Fourierrekker123.pdf">Fourierrekker på 1-2-3</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Differenslikninger.pdf">Differenslikninger</a><br>
+            ---<br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/A5_Ma2_Mengder.pdf">Ma2_Mengder</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Ma2_Logikk.pdf">Ma2_Logikk</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Ma2_Laplace.pdf">Ma2_Laplace</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/A6_Heaviside.pdf">Ma2_Heaviside</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Ma2_Fourierrekker.pdf">Ma2_Fourierrekker</a><br>
+            <!-- <a href="https://dl.dropbox.com/u/2113110/07_Ma2_Fourier_Lysark.pdf">Ma2_Fourier_Lysark</a><br> --> 
+			<a href="https://dl.dropbox.com/u/2113110/Ma2_Konsentrat.pdf">Ma2_Konsentrat</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Svar_Ma2_V15.pdf">Svar til oppgaver i Ma2</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Ma2_Oppgavehefte.pdf">Ma2_Oppgavehefte</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Ma2_Oppgavehefte_Svar.pdf">Oppgavehefte_Svar</a>
+          </p>
+        </div>
+        <div class="subject">
+          <p class="title">
+            <a href="#">Matematikk 0</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropbox.com/u/2113110/Nullkurs_2014.pdf">Nullkurs</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://campus.inkrement.no/202334626">_Nettutgave</a>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_1.pdf">1_Algebra_Likninger</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_2.pdf">2_Trigonometri_Geometri</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_3.pdf">3_Funksjoner_Derivasjon</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_4.pdf">4_Trigo_Log_Eksponent</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_5.pdf">5_Vektorer</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_6.pdf">6_Integrasjon</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_7.pdf">7_Følger_Rekker</a><br>
+			<a href="https://dl.dropboxusercontent.com/u/2113110/Modul_8.pdf">8_Sannsynlighetsregning</a><br>			
+            <a href="https://dl.dropbox.com/u/2113110/Teknisk_realfag_Ma_AB.pdf">Teknisk realfag - Matematikk</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Formler_matematikk.pdf">Formelsamling - Matematikk</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Svar_coSinus.pdf">Svar til oppgaver i coSinus</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Yveinord/Oppgaver_YGR_H12V13.pdf">Oppgaver H12V13 med svar</a><br>
+			<a href="http://ansatte.hin.no/tg/numbas/nullkurstest/index.html">eTest_1</a><br>
+			<a href="http://ansatte.hin.no/tg/numbas/ygr1601-test-1/index.html">eTest_2</a><br>
+			<a href="http://ansatte.hin.no/tg/numbas/tg-sinus-12-16/index.html">eTest_3</a><br>
+            <a href="ansatte_hin_no_tg_Popup_2.html" onclick="Sprettopp=window.open('ansatte_hin_no_tg_Popup_2.html','Sprettopp','toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=300,height=300'); return false;">NETTSTEDER</a>
+          </p>
+        </div>
+        <div class="subject">
+          <p class="title">
+            <a href="#">Datafag</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropbox.com/u/2113110/HTML_CSS.html">HTML CSS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://dl.dropbox.com/u/2113110/HTML_CSS.ZIP">Kildekode</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/RegnearkH12.pdf">Regneark</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://dl.dropbox.com/u/2113110/Eksempelark.zip">Eksempler</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/OopMedCpp.pdf">Objektorientert C++</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/ABCplusspluss.pdf">C++, ABC++</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/jABC.pdf">Java, jABC</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/ABCsharp_Leksjoner.pdf">C#, ABC#</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Algoritmer.pdf">Algoritmer</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/DigitaleSystemer.pdf">Digitale systemer</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Mikroboka.pdf">Mikroboka</a>
+			<br><br>
+			<i>MATLAB</i><br>
+            <a href="http://kark.hin.no/tore_g/mq_1.html">Matlab Quiz - 1</a><br>
+            <a href="http://kark.hin.no/tore_g/mq_2.html">Matlab Quiz - 2</a><br>
+            <a href="http://kark.hin.no/tore_g/mq_3.html">Matlab Quiz - 3</a><br>
+			            <a href="https://dl.dropbox.com/u/2113110/sorter_3.m">sorter_3.m</a><br>
+<!--            <a href="http://kark.hin.no/tore_g/mc_1.html">Matlab Quiz</a><br> -->
+			<a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke35.txt">Uke35</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke35_svar.txt">Uke35_Svar</a><br>
+			<a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke36.txt">Uke36</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke36_svar.txt">Uke36_Svar</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke41.txt">Uke41</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke41_svar.txt">Uke41_svar</a><br>            
+            <a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke42.txt">Uke42</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://dl.dropbox.com/u/2113110/MATLAB_Uke42_svar.txt">Uke42_svar</a>
+          </p>
+        </div>
+        <div class="subject">
+          <p class="title">
+            <a href="#">Fysikk</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropbox.com/u/2113110/Fy_YGR_01.pdf">Fy0 01_Bevegelse</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Fy_YGR_Elektro.pdf">Fy0 12_Elektro</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Fysikk_Formler_W.pdf">Fy1 Formelsamling</a><br>
+			<!-- <a href="https://dl.dropbox.com/u/2113110/Fysikk_Formler.pdf">Fy1 Formelsamling</a><br> -->
+            <a href="https://dl.dropbox.com/u/2113110/Svar_Fysikkbok.pdf">Fy1 Svar_Fysikkbok</a>
+          </p>
+        </div>
+        <div class="subject">
+          <p class="title">
+            <a href="#">Elektro</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropbox.com/u/2113110/Elektriske_kretser.pdf">Elektriske kretser</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Elektro_oppgaver.pdf">Elektro Oppgaver</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/ELhefter_12_Formler.pdf">Elektro Formler</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/ELhefter_39_ELNformler.pdf">Elektronikk Formler</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/ELhefter_08_Spice.pdf">Elektro - SPICE</a>
+          </p>
+        </div>
+		
+        <div class="subject">
+          <p class="title">
+            <a href="#">Programvare</a>
+          </p>
+          <p class="desc">
+            <a href="https://dl.dropboxusercontent.com/u/2113110/microMATLAB.html">microMATLAB</a><br>  <a href="https://dl.dropboxusercontent.com/u/2113110/miniMATLAB.html">miniMATLAB</a><br>
+<a href="https://dl.dropboxusercontent.com/u/2113110/microMaxima.html">microMaxima</a><br>	             
+            <a href="https://dl.dropboxusercontent.com/u/2113110/MATLAB_Lynkurs.html">MATLAB Lynkurs</a><br>	          
+            <a href="https://dl.dropbox.com/u/2113110/MATLAB_Intro.pdf">MATLAB Intro</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/MATLAB_Numerisk.pdf">MATLAB Numerisk</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/MATLAB_Symbolsk.pdf">MATLAB Symbolsk</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/MATLAB_Programmering.pdf">MATLAB Programmering</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/mfiler.zip">MATLAB mfiler.zip</a><br>
+            <a href="https://dl.dropboxusercontent.com/u/2113110/Scilab_Lynkurs.html">Scilab Lynkurs</a><br>	
+            <a href="https://dl.dropbox.com/u/2113110/MaximaIntro.pdf">Maxima introduksjon</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/Enlinjet_matematikk.pdf">Enlinjet matematikk</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/ClassPad_i_Ma2.pdf">Classpad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://dl.dropbox.com/u/2113110/TInspire_i_Ma2.pdf">TInspire</a><br>
+            <a href="https://dl.dropbox.com/u/2113110/PDF_Intro.pdf">PDF Intro</a>
+          </p>          
+        </div>
+
+        <div class="subject">
+          <p class="title">
+            <a href="#">Linker</a>
+          </p>
+          <p class="desc">
+            <a href="http://158.39.86.86/">Nettmøte</a><br>
+           <a href="https://dl.dropboxusercontent.com/u/2113110/numbas/numbas-slides.html">Numbas Intro Slides</a><br>           
+            <a href="http://kark.hin.no/numbas/">eTester - Numbas</a><br>
+            <a href="http://cow.math.temple.edu/">Calculus on the Web</a><br>
+            <a href="http://tutorial.math.lamar.edu/">Pauls Online Math Notes</a><br>
+            <a href="http://filer.amendor.no/ramme/loadfile.php?fagid=123&amp;skole=Alle">Matematikk på nett</a><br>
+            <a href="http://ocw.mit.edu/OcwWeb/Mathematics/index.htm">MIT - OpenCourseWare</a><br>
+            <a href="http://online.math.uh.edu/HoustonACT/videocalculus/index.html">U of Houston - Calculus</a><br>
+            <a href="http://video.adm.ntnu.no/openVideo/">NTNU OpenVideo</a><br>
+            
+		  		<a href="#" onClick="window.open('http://octave-online.net','Octave','resizable,height=400,width=800'); return false;">Octave nettstart</a><noscript>You need Javascript to use the previous link or use <a href="octave-online.net" target="_blank">Octave nettstart</a></noscript><br>
+		<a href="http://www.geogebra.org/webstart/geogebra.html">GeoGebra nettstart</a></p>
+          <form name="input" action="http://www.wolframalpha.com/input/" target="_blank" method="get" id="input">
+
+			<input type="text" name="i" size="16"> <input type="submit" value="WolframA">
+          </form>
+		  <form name="input" action="http://gamma.sympy.org/input/" target="_blank" method="get" id="input">
+
+			<input type="text" name="i" size="16"> <input type="submit" value="SymPyG">
+          </form>            
+          </p>
+        </div>
+
+		
+      </div><br id="subjectWrapClear">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><sub>(cc) Tore Gaupseth 2014</sub></small><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://twitter.com/fagogfakta" class="twitter-follow-button" data-show-count="false"> Follow @fagogfakta</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	 <!-- </div>  <!-- ???? -->
+    </div><!-- /#content -->
+    <br id="wrapClear">
+    <!-- /#wrap -->
+  </body>
+</html>
