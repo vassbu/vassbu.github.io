@@ -14,6 +14,6 @@ Numbas oppgaver er html-sider med stilark og javascript og kan serveres fra en e
 
 Mimisbrunnr er et privat prosjekt og gir dermed fri adgang til alle som besøker nettsiden. Alle filer kan lastes ned av hvem som helst. En institusjon kan sette opp sider som bare kan brukes av registrerte deltakere.
 
-# <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact
+### <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact
 
 Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.
